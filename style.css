@@ -1,3 +1,9 @@
-header{
+#mainimg{
+    height: 660px;
+}
+
+img{
+    border-radius: 28px;
     width: 1120px;
+    height: 350px;
 }
