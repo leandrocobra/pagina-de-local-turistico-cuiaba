@@ -54,7 +54,7 @@ p{
 .subtitle{
   font-size: 16px;
   line-height: 22px;
-  font-style: italic; /* Muda estilo da fonte para itálico */
+  font-style: italic;
   text-align: center;
   color: #333333;
   margin-top: 24px;
@@ -78,4 +78,37 @@ header{
 
 .section-header{
     margin: 64px 0;
+}
+
+#rodape{
+    text-align: center;
+}
+
+.lista{
+    margin-top: 40px
+}
+
+.titulo-lista{
+    color: #333333;
+    font-weight: bold
+}
+
+ul{
+    margin: 0;
+    padding: clamp(16px, 4vw, 32px);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+li{
+    font-weight: bold;
+    color: #591b98;
+}
+
+li+li{
+    color: #e5245e;
+}
+
+li+li+li{
+    color: #e95e10;
 }
